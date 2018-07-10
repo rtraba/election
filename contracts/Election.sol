@@ -17,8 +17,8 @@ contract Election {
 
 	function Election() {
 		addCandidate("Candidto 1");
-		addCandidate("Candidto 1");
-		addCandidate("Candidto 1");
+		addCandidate("Candidto 2");
+		//addCandidate("Candidto 3");
 	}
 
 	function addCandidate(string _name) private{
